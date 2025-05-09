@@ -10,7 +10,11 @@
 // - Remove espaços extras no início e no final da frase antes de realizar a verificação.
 
 function verificarPalavra(frase, palavraBusca) {
-  // TODO: implementar função
+  if (frase < 5) {
+    return "Acertou!";
+  } else {
+    return "Errou! Tente novamente!";
+  }
 }
 
 //NÃO REMOVA O CÓDIGO ABAIXO
